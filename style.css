@@ -3,3 +3,45 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+nav {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  background-color: gray;
+}
+figure img {
+  margin: 0 auto;
+  display: block; /* Ensures the image is centered properly */
+  max-width: 100%;
+  height: auto;
+}
+figure figcaption {
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#details {
+  display: flex; /* Use flexbox to create a horizontal layout */
+  flex-wrap: wrap; 
+  justify-content: space-between; /* Distribute items with space between them */
+}
+
+.div {
+  flex: 1; /* Allow each item to grow and take equal space */
+  padding: 400px; /* Add padding to create space around items */
+  background-color: #3498db; /* Background color for all divs */
+  text-align: center; /* Center-align text within divs */
+  margin-bottom: 10px; /* Optional: Add vertical spacing between items */
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
